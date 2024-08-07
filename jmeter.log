@@ -1,0 +1,191 @@
+2024-07-29 11:18:20,965 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-07-29 11:18:20,982 INFO o.a.j.JMeter: Loading user properties from: C:\JMeter\apache-jmeter-5.6.3\bin\user.properties
+2024-07-29 11:18:20,982 INFO o.a.j.JMeter: Loading system properties from: C:\JMeter\apache-jmeter-5.6.3\bin\system.properties
+2024-07-29 11:18:20,989 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-07-29 11:18:20,989 INFO o.a.j.JMeter: Version 5.6.3
+2024-07-29 11:18:20,989 INFO o.a.j.JMeter: java.version=19.0.1
+2024-07-29 11:18:20,989 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-07-29 11:18:20,989 INFO o.a.j.JMeter: os.name=Windows 11
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: os.arch=amd64
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: os.version=10.0
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: java.awt.headless=null
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-07-29 11:18:20,990 INFO o.a.j.JMeter: Available Processors =8
+2024-07-29 11:18:21,007 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-07-29 11:18:21,007 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-07-29 11:18:21,007 INFO o.a.j.JMeter: JMeterHome=C:\JMeter\apache-jmeter-5.6.3
+2024-07-29 11:18:21,007 INFO o.a.j.JMeter: user.dir  =C:\Users\Yan_Bareisha\Documents\GitHub\testJMeter
+2024-07-29 11:18:21,008 INFO o.a.j.JMeter: PWD       =C:\Users\Yan_Bareisha\Documents\GitHub\testJMeter
+2024-07-29 11:18:21,009 INFO o.a.j.JMeter: IP: 192.168.100.43 Name: EPUAKYIW0741 FullName: host.docker.internal
+2024-07-29 11:18:21,027 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-07-29 11:18:21,218 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.nimbus.NimbusLookAndFeel
+2024-07-29 11:18:22,153 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-07-29 11:18:22,338 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-07-29 11:18:22,698 INFO o.j.r.JARSourceHTTP: Found cached repo
+2024-07-29 11:18:22,878 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.10, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-07-29 11:18:33,486 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,487 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,487 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,487 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,487 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,487 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option Chrome^\^;v=^\^127^\^, ^\^Chromium^\^;v=^\^127^\^^
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,488 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,489 WARN o.a.j.p.h.c.BasicCurlParser: Unhandled option ^
+
+2024-07-29 11:18:33,489 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl "http://localhost:8983/solr/jobs/update?_=1722238301073&commitWithin=1000&overwrite=true&wt=json" ^
+  -H "Accept: application/json, text/plain, */*" ^
+  -H "Accept-Language: en-US,en;q=0.9,hu;q=0.8" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-type: application/json" ^
+  -H "Origin: http://localhost:8983" ^
+  -H "Referer: http://localhost:8983/solr/" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" ^
+  -H "X-Requested-With: XMLHttpRequest" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"127^\^", ^\^"Chromium^\^";v=^\^"127^\^"^" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  --data-raw ^"^[^{id:3,^
+
+cities:Zimbor^
+
+^}^]^" into Request [compressed=false, url=http://localhost:8983/solr/jobs/update?_=1722238301073&commitWithin=1000&overwrite=true&wt=json, method=POST, headers=[(Accept,application/json, text/plain, */*), (Accept-Language,en-US,en;q=0.9,hu;q=0.8), (Content-type,application/json), (Origin,http://localhost:8983), (Referer,http://localhost:8983/solr/), (Sec-Fetch-Dest,empty), (Sec-Fetch-Mode,cors), (Sec-Fetch-Site,same-origin), (User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36), (X-Requested-With,XMLHttpRequest), (^sec-ch-ua,^\^Not)A;Brand^\^;v=^\^99^\^, ^\^Google), (sec-ch-ua-mobile,?0), (^sec-ch-ua-platform,^\^Windows^\^^)]]
+2024-07-29 11:18:33,491 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: No AbstractThreadGroup found, potentially empty plan, creating a new plan
+2024-07-29 11:18:33,515 INFO o.a.j.s.FileServer: Default base='C:\Users\Yan_Bareisha\Documents\GitHub\testJMeter'
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-07-29 11:18:33,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-07-29 11:18:33,548 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-07-29 11:18:33,740 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-07-29 11:18:33,740 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-07-29 11:18:33,740 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-07-29 11:18:33,740 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-07-29 11:18:33,880 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-07-29 11:18:33,906 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-07-29 11:19:08,419 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-07-29 11:19:08,419 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-07-29 11:19:08,477 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-07-29 11:20:15,083 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-07-29 11:20:15,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-07-29 11:20:15,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-07-29 11:20:15,087 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-07-29 11:20:15,126 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-07-29 11:20:15,127 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2024-07-29 11:20:15,127 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-07-29 11:20:15,127 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2024-07-29 11:20:15,135 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-07-29 11:20:15,136 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-07-29 11:20:20,129 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-07-29 11:20:20,139 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EPUAKYIW0741
+2024-07-29 11:20:20,146 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-07-29 11:20:20,228 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-07-29 11:20:20,328 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-07-29 11:20:20,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-07-29 11:20:20,528 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-07-29 11:20:20,628 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-07-29 11:20:20,728 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-07-29 11:20:20,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-07-29 11:20:20,929 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-07-29 11:20:21,029 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-07-29 11:20:33,514 INFO o.a.j.g.a.Start: Stopping test
+2024-07-29 11:20:33,537 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2024-07-29 11:20:33,538 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: INSERT
+2024-07-29 11:20:33,539 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2024-07-29 11:20:33,540 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: INSERT
+2024-07-29 11:20:33,540 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2024-07-29 11:20:33,540 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: INSERT
+2024-07-29 11:20:33,541 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2024-07-29 11:20:33,541 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: INSERT
+2024-07-29 11:20:33,542 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2024-07-29 11:20:33,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-07-29 11:20:33,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-07-29 11:20:33,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-07-29 11:20:33,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-07-29 11:20:33,543 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: INSERT
+2024-07-29 11:20:33,544 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2024-07-29 11:20:33,544 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: INSERT
+2024-07-29 11:20:33,545 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2024-07-29 11:20:33,546 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: INSERT
+2024-07-29 11:20:33,546 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-07-29 11:20:33,547 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2024-07-29 11:20:33,547 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: INSERT
+2024-07-29 11:20:33,548 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2024-07-29 11:20:33,549 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: INSERT
+2024-07-29 11:20:33,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-07-29 11:20:33,549 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2024-07-29 11:20:33,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-07-29 11:20:33,549 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: INSERT
+2024-07-29 11:20:33,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-07-29 11:20:33,556 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-07-29 11:20:33,556 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-07-29 11:20:33,557 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-07-29 11:20:33,558 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-07-29 11:21:05,430 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-07-29 11:21:05,431 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-07-29 11:21:05,432 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-07-29 11:21:05,459 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-07-29 11:21:05,459 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2024-07-29 11:21:05,459 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-07-29 11:21:05,460 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2024-07-29 11:21:05,466 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-07-29 11:21:05,466 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-07-29 11:21:10,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-07-29 11:21:10,560 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-07-29 11:21:10,660 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-07-29 11:21:10,761 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-07-29 11:21:10,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-07-29 11:21:10,962 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-07-29 11:21:11,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-07-29 11:21:11,160 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-07-29 11:21:11,261 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-07-29 11:21:11,361 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-07-29 11:36:10,464 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2024-07-29 11:36:10,464 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-07-29 11:36:10,464 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2
+2024-07-29 11:36:10,465 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3
+2024-07-29 11:36:10,465 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-07-29 11:36:10,465 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-07-29 11:36:10,469 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9
+2024-07-29 11:36:10,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-07-29 11:36:10,470 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7
+2024-07-29 11:36:10,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-07-29 11:36:10,473 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8
+2024-07-29 11:36:10,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-07-29 11:36:10,475 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10
+2024-07-29 11:36:10,475 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2024-07-29 11:36:10,475 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-07-29 11:36:10,475 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-07-29 11:36:10,483 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6
+2024-07-29 11:36:10,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-07-29 11:36:10,731 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5
+2024-07-29 11:36:10,732 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-07-29 11:36:10,733 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-07-29 11:36:10,733 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
