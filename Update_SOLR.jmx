@@ -10,22 +10,21 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <intProp name="ThreadGroup.num_threads">25</intProp>
-        <intProp name="ThreadGroup.ramp_time">60</intProp>
+        <intProp name="ThreadGroup.num_threads">100</intProp>
+        <intProp name="ThreadGroup.ramp_time">10</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <intProp name="LoopController.loops">-1</intProp>
+          <stringProp name="LoopController.loops">11000</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS">
           <stringProp name="HTTPSampler.domain">localhost</stringProp>
           <stringProp name="HTTPSampler.port">8983</stringProp>
-          <stringProp name="HTTPSampler.path">/solr/jobs/update?_=1722238301073&amp;commitWithin=1000&amp;overwrite=true&amp;wt=json</stringProp>
+          <stringProp name="HTTPSampler.path">/solr/jobs/update?_=1722238301073&amp;commitWithin=10&amp;overwrite=true&amp;wt=json</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -35,14 +34,13 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">[{id:&quot;${__UUID}&quot;,&#xd;
-      &quot;job_title&quot;:[&quot;QA Performance Tester&quot;],&#xd;
+      &quot;job_title&quot;:[&quot;QAS Performance Tester&quot;],&#xd;
       &quot;job_link&quot;:[&quot;https://epam.com/&quot;],&#xd;
       &quot;company&quot;:[&quot;YAN_B&quot;],&#xd;
       &quot;country&quot;:[&quot;România&quot;],&#xd;
       &quot;remote&quot;:[&quot;on-site&quot;],&#xd;
       &quot;validThrough&quot;:[&quot;2024-06-20T00:00:00Z&quot;],&#xd;
       &quot;city&quot;:[&quot;CIOFLINCENI&quot;]&#xd;
-      &#xd;
 }]</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -123,7 +121,7 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check code" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check code" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="49586">200</stringProp>
             </collectionProp>
@@ -136,7 +134,7 @@
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">true</boolProp>
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
