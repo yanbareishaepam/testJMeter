@@ -1,7 +1,4 @@
-name: 
-JMeter_QA
-
-on: [push]
+name: JMeter_QA on: [push]
 
 jobs:
   jmeter:
