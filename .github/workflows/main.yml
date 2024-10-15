@@ -1,4 +1,4 @@
-name: JMeter Test QA
+name: JMeter_QA
 
 on: [push]
 
