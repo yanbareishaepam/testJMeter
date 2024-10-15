@@ -1,4 +1,5 @@
-name:                     JMeter_QA
+name: 
+JMeter_QA
 
 on: [push]
 
