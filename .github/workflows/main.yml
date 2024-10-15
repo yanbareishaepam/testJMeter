@@ -1,24 +1,21 @@
-name: JMeter_QA on: [push]
-
+name: JMeter_QA 
+on: [push]
 jobs:
   jmeter:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v3 # Updated to the latest version at the time of writing
-
     - name: Set up JDK 11
       uses: actions/setup-java@v3 # Assuming a newer version is available; adjust based on current versions
       with:
         java-version: '11'
         distribution: 'adopt'
-
     - name: Run JMeter test
       run: |
         wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz
         tar -xzf apache-jmeter-5.6.3.tgz
         apache-jmeter-5.6.3/bin/jmeter -n -t QA_INSERTJOBS.jmx -l result.jtl
-
     - name: Upload Results
       uses: actions/upload-artifact@v3 # Adjusted to a hypothetical newer version; check the latest version
       with:
