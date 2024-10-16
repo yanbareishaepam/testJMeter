@@ -2,7 +2,7 @@ name: JMeter_QAn
 on:
   workflow_dispatch:
 jobs:
-  jmeter:
+  JMeter_Test:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
