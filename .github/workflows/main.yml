@@ -1,5 +1,6 @@
 name: JMeter_QAn 
-on: [push]
+on:
+  workflow_dispatch:
 jobs:
   jmeter:
     runs-on: ubuntu-latest
