@@ -1,4 +1,4 @@
-name: JMeter_QA 
+name: JMeter_QAn 
 on: [push]
 jobs:
   jmeter:
