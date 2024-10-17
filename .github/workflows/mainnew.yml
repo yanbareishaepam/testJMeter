@@ -1,7 +1,6 @@
 name: peviitor.ro
 on:
-  push:
-    branches: [ main ]
+
   workflow_dispatch:
 jobs:
   build:
@@ -10,4 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: run jmeter on github action
-        uses: yanbareisha/run-jmeter-github-action@main
+        uses: sebiboga/run-jmeter-github-action@v0.0.5
+          
