@@ -12,7 +12,7 @@
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
         <intProp name="ThreadGroup.num_threads">30</intProp>
         <intProp name="ThreadGroup.ramp_time">50</intProp>
-        <longProp name="ThreadGroup.duration">3600</longProp>
+        <longProp name="ThreadGroup.duration">900</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -22,7 +22,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS">
           <stringProp name="HTTPSampler.domain">zimbor.go.ro</stringProp>
           <stringProp name="HTTPSampler.port">8985</stringProp>
           <stringProp name="HTTPSampler.path">/solr/jobs/update?_=1722238301073&amp;commitWithin=1&amp;overwrite=true&amp;wt=json</stringProp>
