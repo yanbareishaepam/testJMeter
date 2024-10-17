@@ -1,0 +1,24 @@
+name: JMeter_QAn 
+on:
+  workflow_dispatch:
+jobs:
+  JMeter_Test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout_Give_my_code
+      uses: actions/checkout@v4.2.1 # Updated to the latest version at the time of writing
+    - name: Set up JDK 11
+      uses: actions/setup-java@v4.4.0 # Assuming a newer version is available; adjust based on current versions
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - name: Insert_Test_Data_QA
+      run: |
+        wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz
+        tar -xzf apache-jmeter-5.6.3.tgz
+        apache-jmeter-5.6.3/bin/jmeter -n -t QA_INSERTJOBS.jmx -l result.jtl
+    - name: Upload Results
+      uses: actions/upload-artifact@v4.4.3 # Adjusted to a hypothetical newer version; check the latest version
+      with:
+        name: jmeter-results
+        path: result.jtl
