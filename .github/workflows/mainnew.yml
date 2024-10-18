@@ -1,7 +1,11 @@
-name: peviitor.ro
+name: manual_triggered_peviitor.ro
 on:
-
   workflow_dispatch:
+    inputs:
+      workload:
+        description: 'Workload for JMeter test'
+        required: true
+        default: '10'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,4 +14,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: run jmeter on github action
         uses: sebiboga/run-jmeter-github-action@main
-          
+        with:
+          workload: ${{ github.event.inputs.workload }}
