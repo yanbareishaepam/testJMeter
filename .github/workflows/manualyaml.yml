@@ -30,6 +30,7 @@ jobs:
           name: jmeter-results
           path: result.jtl
   Auto_Test:
+    needs: JMeter_Test
     runs-on: ubuntu-latest
     steps:
       - name: firtsstepYan
