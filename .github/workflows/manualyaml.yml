@@ -30,3 +30,9 @@ jobs:
       with:
         name: jmeter-results
         path: result.jtl
+  Auto_Test: 
+    - name: firtsstepYan
+       runs-on: ubuntu-latest
+          run: |
+          pwd
+          ls
