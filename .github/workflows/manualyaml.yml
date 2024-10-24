@@ -9,7 +9,7 @@ on:
       runtime: 
         default: '100'
 jobs:
-  JMeter_Test:
+  Insert_Jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout_Give_my_code
@@ -29,11 +29,20 @@ jobs:
         with:
           name: jmeter-results
           path: result.jtl
-  Auto_Test:
-    needs: JMeter_Test
+  Load_Test:
+    needs: Insert_Jobs
     runs-on: ubuntu-latest
     steps:
       - name: firtsstepYan
         run: |
           pwd
           ls
+
+
+  Stress_Test:
+    needs: Insert_Jobs
+    runs-on: ubuntu-latest
+    steps:
+      - name: secondstepYan
+        run: |
+          pwd
