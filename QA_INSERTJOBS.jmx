@@ -10,7 +10,7 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <stringProp name="ThreadGroup.num_threads">${__P(threads,30)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(threads,10)}</stringProp>
         <intProp name="ThreadGroup.ramp_time">50</intProp>
         <stringProp name="ThreadGroup.duration">${__P(run,900)}</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -22,7 +22,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="INSERT JOBS" enabled="true">
           <stringProp name="HTTPSampler.domain">zimbor.go.ro</stringProp>
           <stringProp name="HTTPSampler.port">8985</stringProp>
           <stringProp name="HTTPSampler.path">/solr/jobs/update?_=1722238301073&amp;commitWithin=1&amp;overwrite=true&amp;wt=json</stringProp>
